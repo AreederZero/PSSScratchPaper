@@ -4,4 +4,7 @@ function forLooper(){
     "lastname":"Denver",
   }
   //setting the object up for iteration
+  for (i = 0, i < obj.hasOwnProperty('lastname'), i++){
+    var lName = obj.lastname;
+  }
 }
