@@ -1,0 +1,7 @@
+function forLooper(){
+  var obj = {
+    "firstname":"Bob",
+    "lastname":"Denver",
+  }
+  //setting the object up for iteration
+}
