@@ -1,0 +1,3 @@
+function renderStrings(){
+  var firstStr = 'This string has an & in it';
+}
