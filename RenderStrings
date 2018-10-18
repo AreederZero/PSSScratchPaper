@@ -2,4 +2,8 @@ function renderStrings(){
   var firstStr = 'This string has an & in it';
   //adding the replacement for the & symbol to be escaped in the first string
   var replStr = firstStr.replace('&', '&amp;');
+  //this is an extended zip code replacement
+  var extZip = '66211-1234';
+  //we'll shrink it down to a normal 5 digit zip code
+  var shortZip = extZip.substr(0,5);
 }
