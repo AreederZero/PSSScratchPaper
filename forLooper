@@ -1,0 +1,12 @@
+function forLooper(){
+  var obj = {
+    "firstname":"Bob",
+    "lastname":"Denver",
+  }
+  //setting the object up for iteration
+  for (i = 0, i < obj.hasOwnProperty('lastname'), i++){
+    var lName = obj.lastname;
+    //adding output to show last name
+    console.log('lName');
+  }
+}
