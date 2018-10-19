@@ -1,0 +1,4 @@
+var wantRevan = true;
+var money = true;
+if(wantRevan && money)
+  Revan();
