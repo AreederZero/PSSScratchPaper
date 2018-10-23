@@ -6,4 +6,5 @@ function renderStrings(){
   var extZip = '66211-1234';
   //we'll shrink it down to a normal 5 digit zip code
   var shortZip = extZip.substr(0,5);
+  //this is my new edit
 }
